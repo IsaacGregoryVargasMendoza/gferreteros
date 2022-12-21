@@ -1,0 +1,103 @@
+main>.container {
+    padding: 30px 0;
+}
+
+.img-catalogo{
+    height: 250px;
+    width: 100%;
+}
+
+.img-catalogo-detalle{
+    height: 480px;
+    width: 100%;
+}
+
+.img-catalogo-formulario{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 100px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.formulariocontrol {
+    width: 100%;
+    background: #fff;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition: .3s ease all;
+}
+
+.formulariocontrol:focus {
+    border: 3px solid #0075FF;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+
+.devesoft{
+    width: 100px;
+}
+
+.cuerpo{
+    background: #292b2c;
+    
+}
+
+.bg{
+    background-image: url('../imagenes/devesoftazul.jpeg');
+    background-position: center center;
+    background-size: 580px;
+    background-repeat: no-repeat;
+}
+
+.main-header {
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+    background: url('/imagenes/camion.jpg');
+    background-size: cover;
+    min-height: 700px;
+}
+
+.background-overlay{
+    position: absolute;
+    background: rgba(0, 0, 0,0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.img-fluid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+
+div.scroll_horizontal {
+	overflow: auto;
+	padding: 8px;
+}
+
+.subtotales-container{
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+}
